@@ -43,6 +43,8 @@ var processCard = (index) => {
 
     cards[index].instances += 1;
 
+    var test = [1...5];
+
     for (let i = index + 1; i <= index + cards[index].matches; i++) {
         processCard(i);
     }
